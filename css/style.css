@@ -1,5 +1,36 @@
-      @media (max-width: 320px)  and (min-width: 575.99px){
-      }
+     /* ---------------------Media query start ------------------------- */
+@media (min-width: 1400px){
+    .container{
+        width: 98% !important;
+    }
+    img{
+        width: 100% !important;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+.container{
+    width: 98% !important;
+}
+img{
+    width: 100% !important;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.99px){
+    .container{
+        width: 95%;
+    }
+img{
+    width: 97%;
+}
+.navbar-brand{
+    margin-bottom: 5px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.99px)  {
+
+
+}
+     /* --------------------- Media query end ------------------------- */
       /* -----------------------
              Common css start
        ----------------------- */
@@ -162,3 +193,4 @@ nav{
 
 
         
+
