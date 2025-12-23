@@ -1,0 +1,160 @@
+      @media (max-width: 320px)  and (min-width: 575.99px){
+      }
+      /* -----------------------
+             Common css start
+       ----------------------- */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none; 
+}
+       /* ----------------------- 
+             Common css end
+       ----------------------- */
+
+
+
+      /* ---------------------------- 
+               Navbar css start
+       ---------------------------- */
+nav{
+    background-color: #1C1E53;
+    padding: 16px 0 !important;
+}
+.navbar-nav{
+ column-gap: 32px;
+ line-height: 28px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight:  500;
+    font-family: "Poppins", sans-serif;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    transition: 0.4s;
+}
+.nav-item:hover .nav-link{
+    color: #BBBBCB;
+}
+.nav-btn{
+    background: transparent;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    padding: 16px 48px;
+    margin-left: 48px;
+    color: rgb(255 255 255) !important;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color: #FCD980;
+    border: 1px solid #FCD980;
+    color: black !important;
+}
+           /* -------------------------- 
+                  Navbar css end
+            -------------------------- */
+            /* ---------------------------- 
+               Banner css start   
+         ---------------------------- */
+.banner-section{
+    background-color: #1C1E53;
+    padding: 120px 0;
+}
+.banner-section h1{
+    font-size: 54px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    line-height: 74px;
+    margin-bottom: 24px;
+}
+.banner-section p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    margin-bottom: 37px;
+    width: 562px;
+}
+.banner-btn  a{
+    background: #FCD980;
+    border-radius: 41px;
+    padding: 16px 56px;
+    color: black !important;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    line-height: 32px;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.banner-btn  a:hover{
+    background-color: transparent;
+    border: 1px solid #FCD980;
+    color: #FCD980 !important;
+}
+.banner-section .container{
+    position: relative;
+}
+.pricing p{
+    position: absolute;
+    display: inline-block;
+    bottom: -36px;
+    left: 24%;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.arrow-icon i{
+    position: absolute;
+    bottom: 7px;
+    right: 74%;
+    color: transparent;
+    transition: 0.5s;
+}
+.arrow-icon i:hover .pricing p{
+    color: white;
+    bottom: 5px;
+    right: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* ---------------------------- 
+               Banner css start   
+         ---------------------------- */
+               
+               
+
+
+
+
+
+
+
+
+
+
+        
