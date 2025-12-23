@@ -117,12 +117,15 @@ nav{
     font-weight: 500;
     line-height: 28px;
 }
-.arrow-icon i{
-    position: absolute;
+.arrow-icon {
+    position: relative;
     bottom: 7px;
     right: 74%;
     color: transparent;
     transition: 0.5s;
+}
+.arrow-icon i{
+    position: absolute;
 }
 .arrow-icon i:hover .pricing p{
     color: white;
@@ -147,6 +150,7 @@ nav{
          ---------------------------- */
                
                
+
 
 
 
