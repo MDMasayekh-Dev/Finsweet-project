@@ -138,30 +138,28 @@ nav{
 .banner-section .container{
     position: relative;
 }
-.pricing p{
+.banner-section .container .pricing a{
     position: absolute;
     display: inline-block;
-    bottom: -36px;
-    left: 24%;
+    bottom: -0px;
+    left: 27%;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
-}
-.arrow-icon {
-    position: relative;
-    bottom: 7px;
-    right: 74%;
-    color: transparent;
-    transition: 0.5s;
-}
-.arrow-icon i{
-    position: absolute;
-}
-.arrow-icon i:hover .pricing p{
     color: white;
-    bottom: 5px;
-    right: 65%;
+}
+.banner-section .container .pricing a i{
+    position: absolute;
+    bottom: 4px;
+    left: 124px;
+    width: 0%;
+    transition: 0.5s;
+    color : transparent !important;
+}
+.banner-section .container .pricing a:hover i{
+    width: 100%;
+    color : white !important;
 }
 
 
@@ -193,4 +191,5 @@ nav{
 
 
         
+
 
