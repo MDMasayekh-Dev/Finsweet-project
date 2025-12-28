@@ -148,21 +148,6 @@ nav{
     font-weight: 500;
     line-height: 28px;
     color: white;
-<<<<<<< HEAD
-=======
-}
-.banner-section .container .pricing a i{
-    position: absolute;
-    bottom: 4px;
-    left: 124px;
-    width: 0%;
-    transition: 0.5s;
-    color : transparent !important;
-}
-.banner-section .container .pricing a:hover i{
-    width: 100%;
-    color : white !important;
->>>>>>> 31183fc8c6dc0d5737eda0cdaf7bdba5e18870b3
 }
 .banner-section .container .pricing a i{
     position: absolute;
@@ -176,6 +161,64 @@ nav{
     width: 100%;
     color : white !important;
 }
+  /* ---------------------------- 
+               Banner css start 
+    ---------------------------- */
+  /* ---------------------------- 
+               Work part css start 
+    ---------------------------- */
+    .work-section .container{
+        position: relative;
+        padding: 128px 0px;
+    }
+.work-section h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px;
+    margin-bottom: 16px;
+    color: #282938;
+}
+.work-section p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #282938;
+    margin-bottom: 16px; 
+    width: 405px;
+}
+.work-section .work-ani a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #2405F2;
+    margin-top: 24px;
+    position: absolute;
+}
+.work-section .container .work-ani a i{
+    position: absolute;
+    bottom: 4px;
+    left: 150px;
+    width: 0%;
+    transition: 0.5s;
+    color : transparent !important;
+}
+.work-section .container .work-ani a:hover i{
+    width: 100%;
+     color : #2405F2 !important;
+}
+.work-section .work-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.work-section .work-card{
+    width: 48%;
+    height: 200px;
+    
+    
+}
 
 
 
@@ -190,9 +233,38 @@ nav{
 
 
 
-            /* ---------------------------- 
-               Banner css start   
-         ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ---------------------------- 
+               Work part css start 
+    ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+          
                
                
 
