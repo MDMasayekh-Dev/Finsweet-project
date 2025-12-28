@@ -148,6 +148,21 @@ nav{
     font-weight: 500;
     line-height: 28px;
     color: white;
+<<<<<<< HEAD
+=======
+}
+.banner-section .container .pricing a i{
+    position: absolute;
+    bottom: 4px;
+    left: 124px;
+    width: 0%;
+    transition: 0.5s;
+    color : transparent !important;
+}
+.banner-section .container .pricing a:hover i{
+    width: 100%;
+    color : white !important;
+>>>>>>> 31183fc8c6dc0d5737eda0cdaf7bdba5e18870b3
 }
 .banner-section .container .pricing a i{
     position: absolute;
@@ -192,4 +207,5 @@ nav{
 
 
         
+
 
