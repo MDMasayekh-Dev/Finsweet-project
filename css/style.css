@@ -248,7 +248,50 @@ nav{
         /* ---------------------------- 
                Project part css start 
         ---------------------------- */
- 
+.project-section .container .project-ani{
+    position: relative;
+}
+
+.project-section .container .project-ani{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    text-align: center;
+ }
+.project-section .container .project-ani h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px;
+    color: #282938;
+}
+.project-section .container .project-ani .pricing a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+.project-section .container .project-ani{
+    margin-right: 20px;
+}
+
+
+
+
+
+.project-section .container .project-ani a i{
+    position: absolute;
+    top: 6px;
+    left: 1127px;
+    width: 0%;
+    transition: 0.5s;
+    color : transparent !important;
+}
+.project-section .container .project-ani a:hover i{
+    width: 100%;
+    color : #282938 !important;
+    left: -15px;
+}
 
 
 
