@@ -215,43 +215,69 @@ nav{
 }
 .work-section .work-card{
     width: 48%;
-    height: 200px;
-    
-    
+    height: 200px; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.work-section .work-card img{
+   width: 50px !important;
+   height: 50px;
+}
+.work-section .work-card h2{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #282938;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.work-section .work-card p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+}
+.work-section .work-card h2:hover{
+   text-shadow: 1px 3px 9px rgba(0,0,0,0.61);
+}
   /* ---------------------------- 
                Work part css start 
     ---------------------------- */
+        /* ---------------------------- 
+               Project part css start 
+        ---------------------------- */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ---------------------------- 
+               Project part css end 
+        ---------------------------- */
 
 
 
