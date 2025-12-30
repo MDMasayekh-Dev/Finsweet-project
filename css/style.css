@@ -338,7 +338,7 @@ nav{
     padding-right: 35px;
 }
 .project-box .col-lg-8 .project-image1 .overlay p{
-    color: rgba(255, 255, 255,);
+    color: rgba(255, 255, 255,0.8);
     padding-left: 48px;
     padding-right: 55px;
     padding-top: 100px;
