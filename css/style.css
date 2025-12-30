@@ -245,18 +245,31 @@ nav{
   /* ---------------------------- 
                Work part css start 
     ---------------------------- */
+
+
+
+
         /* ---------------------------- 
                Project part css start 
         ---------------------------- */
-.project-section .container .project-ani{
+.project-section{
+    padding: 128px 0;
+}
+.project-section .container{
     position: relative;
 }
-
+.project-section .container .project-ani .project-btn{
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    align-items: center;
+}
 .project-section .container .project-ani{
     display: flex;
-    justify-content: space-between;
     margin-bottom: 64px;
     text-align: center;
+    position: relative;
+    justify-content: space-between;
  }
 .project-section .container .project-ani h2{
     font-size: 48px;
@@ -265,16 +278,12 @@ nav{
     line-height: 64px;
     color: #282938;
 }
-.project-section .container .project-ani .pricing a{
+.project-section .container .project-ani .project-btn a{
     font-size: 16px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: #282938;
 }
-.project-section .container .project-ani{
-    margin-right: 20px;
-}
-
 
 
 
@@ -282,7 +291,7 @@ nav{
 .project-section .container .project-ani a i{
     position: absolute;
     top: 6px;
-    left: 1127px;
+    left: 88px;
     width: 0%;
     transition: 0.5s;
     color : transparent !important;
@@ -290,14 +299,51 @@ nav{
 .project-section .container .project-ani a:hover i{
     width: 100%;
     color : #282938 !important;
-    left: -15px;
 }
-
-
-
-
-
-
+.project-section .project-box{
+    display: flex;
+}
+.project-box .project-image1{
+    width: 843px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.project-box .project-image2{
+    width: 405px;
+    height: 284px;
+}
+.project-box .col-lg-8 .project-image1 .overlay{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(28, 30, 83,0.42);
+    top: 0;
+    left: -421.5px;
+    transition: 0.4s;
+    overflow: hidden;
+}
+.project-box .col-lg-8 .project-image1:hover .overlay{
+    left: 0;
+}
+.project-box .col-lg-8 .project-image1 .overlay h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    height: 72px;
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 35px;
+}
+.project-box .col-lg-8 .project-image1 .overlay p{
+    color: rgba(255, 255, 255,);
+    padding-left: 48px;
+    padding-right: 55px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
 
 
 
