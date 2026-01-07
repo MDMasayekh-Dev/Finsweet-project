@@ -34,10 +34,30 @@ img{
       /* -----------------------
              Common css start
        ----------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 a{
     text-decoration: none;
-    color: inherit;
 }
+/* =========================
+a{
+    text-decoration: none;
+     font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-left: 48px;
+}
+i{
+    bottom: 54px;
+    left: -80px !important;
+    width: 0% !important;
+    transition: 0.5s;
+}
+=========================== */
 ul,ol{
     list-style: none; 
 }
@@ -304,14 +324,23 @@ nav{
     display: flex;
 }
 .project-box .project-image1{
-    width: 843px;
-    height: 600px;
+    width: 843px !important;
+    height: 600px !important;
     position: relative;
     overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
 }
-.project-box .project-image2{
+.project-box .project-image1 img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+.project-box .project-image2 .image2 {
     width: 405px;
     height: 284px;
+    position: relative;
+    overflow: hidden;
 }
 .project-box .col-lg-8 .project-image1 .overlay{
     position: absolute;
@@ -344,6 +373,93 @@ nav{
     padding-top: 100px;
     padding-bottom: 40px;
 }
+.project-section .container .project-box .project-btn2 a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-left: 48px;
+    color: #FCD980;
+}
+.project-section .container .project-box .project-btn2 a i{
+    position: absolute;
+    bottom: 54px;
+    left: -80px !important;
+    width: 0% !important;
+    color: transparent !important;
+    transition: 0.5s;
+}
+.project-section .container .project-box .project-btn2 a:hover i{
+    width: 100% !important;
+    left: -48px !important;
+    color: #FCD980 !important;
+}
+
+.project-box .project-image2 .image2 .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 83,0.42);
+    top: 0;
+    left: -421.5px;
+    transition: 0.5s;
+}
+.project-box .col-lg-4 .project-image2:hover .overlay{
+    left: 0;
+}
+.project-box .project-image2 .image2 .overlay h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    padding-top: 129px;
+    padding-left: 46px;
+    padding-right: 46px;
+    width: 313px;
+}
+
+.project-section .container .project-box .project-image2 .image2 .project-btn3 a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-left: 48px;
+    color: #FCD980;
+    padding-bottom: 45px;
+    padding-top: 10px;
+}
+.project-section .container .project-box .project-image2 .image2 .project-btn3 a i{
+    position: absolute;
+    bottom: 54px;
+    left: 0px ;
+    width: 0%;
+    transition: 0.5s;
+    color: transparent !important;
+}
+
+.project-section .container .project-box .project-image2 .image2 .project-btn3 a:hover i{
+    width: 100% ;
+    left: -22px ;
+    color: #FCD980 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
